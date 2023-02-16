@@ -20,7 +20,7 @@ public class BaseClass {
 	public void driverInitialization() throws IOException
 	{
 		//read properties file
-		FileInputStream fs = new FileInputStream("C:\\Users\\sony\\eclipse-workspace\\SeleniumTestNGProject\\src\\main\\java\\Resources\\data.properties");
+		FileInputStream fs = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\Resources\\data.properties");
 	
 		porp = new Properties();   //access properties file
 		porp.load(fs);

@@ -1,147 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-13T08:02:32 IST" name="Default suite" finished-at="2023-02-13T08:02:44 IST" duration-ms="11898">
+  <suite started-at="2023-02-16T12:25:15 IST" name="Default suite" finished-at="2023-02-16T12:25:31 IST" duration-ms="16606">
     <groups>
     </groups>
-    <test started-at="2023-02-13T08:02:32 IST" name="Default test" finished-at="2023-02-13T08:02:44 IST" duration-ms="11898">
-      <class name="TestCases.VerifyLogin">
-        <test-method is-config="true" signature="geturl()[pri:0, instance:TestCases.VerifyLogin@7193666c]" started-at="2023-02-13T08:02:33 IST" name="geturl" finished-at="2023-02-13T08:02:39 IST" duration-ms="6727" status="PASS">
+    <test started-at="2023-02-16T12:25:15 IST" name="Default test" finished-at="2023-02-16T12:25:31 IST" duration-ms="16606">
+      <class name="TestCases.VerifySinUp">
+        <test-method is-config="true" signature="geturl()[pri:0, instance:TestCases.VerifySinUp@2c767a52]" started-at="2023-02-16T12:25:15 IST" name="geturl" finished-at="2023-02-16T12:25:23 IST" duration-ms="8297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- geturl -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestCases.VerifyLogin@7193666c]" started-at="2023-02-13T08:02:39 IST" name="login" data-provider="testData" finished-at="2023-02-13T08:02:39 IST" duration-ms="67" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testuser1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secure123]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-url is not matching expected [https://login.salesfore.com/] but found [https://login.salesforce.com/]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-url is not matching expected [https://login.salesfore.com/] but found [https://login.salesforce.com/]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at PageObjectModel.commonMethod.AssertHandeling(commonMethod.java:25)
-at TestCases.VerifyLogin.login(VerifyLogin.java:18)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="Sinup()[pri:0, instance:TestCases.VerifySinUp@2c767a52]" started-at="2023-02-16T12:25:23 IST" name="Sinup" finished-at="2023-02-16T12:25:31 IST" duration-ms="7849" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.VerifyLogin@7193666c]" started-at="2023-02-13T08:02:39 IST" name="closeBrowser" finished-at="2023-02-13T08:02:40 IST" duration-ms="379" status="PASS">
+        </test-method> <!-- Sinup -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.VerifySinUp@2c767a52]" started-at="2023-02-16T12:25:31 IST" name="closeBrowser" finished-at="2023-02-16T12:25:31 IST" duration-ms="397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="geturl()[pri:0, instance:TestCases.VerifyLogin@7193666c]" started-at="2023-02-13T08:02:40 IST" name="geturl" finished-at="2023-02-13T08:02:44 IST" duration-ms="4289" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- geturl -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestCases.VerifyLogin@7193666c]" started-at="2023-02-13T08:02:44 IST" name="login" data-provider="testData" finished-at="2023-02-13T08:02:44 IST" duration-ms="41" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testuser2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secure456]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-url is not matching expected [https://login.salesfore.com/] but found [https://login.salesforce.com/]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-url is not matching expected [https://login.salesfore.com/] but found [https://login.salesforce.com/]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at PageObjectModel.commonMethod.AssertHandeling(commonMethod.java:25)
-at TestCases.VerifyLogin.login(VerifyLogin.java:18)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.VerifyLogin@7193666c]" started-at="2023-02-13T08:02:44 IST" name="closeBrowser" finished-at="2023-02-13T08:02:44 IST" duration-ms="305" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- TestCases.VerifyLogin -->
+      </class> <!-- TestCases.VerifySinUp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
