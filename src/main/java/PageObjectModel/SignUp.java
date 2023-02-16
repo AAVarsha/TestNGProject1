@@ -12,6 +12,7 @@ public class SignUp {
 	private By Company = By.xpath("//select[@name='CompanyEmployees']");
 	private By Email = By.xpath("//input[@name='UserEmail']");
 	private By Job= By.xpath("//select[@name='UserTitle']");
+	private By Country = By.xpath("//select[@name='CompanyCountry'");
 	public SignUp(WebDriver driver2)
 	{
 		this.driver = driver2;    
@@ -39,6 +40,10 @@ public class SignUp {
 	{
 		return driver.findElement(Job);
 	}
+public WebElement country()
+{
+	return driver.findElement(Company);
 	
+}
 }
 

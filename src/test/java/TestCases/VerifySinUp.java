@@ -26,7 +26,8 @@ public class VerifySinUp extends BaseClass
 		obj1.LastName().sendKeys("Shinde");
 		obj1.Email().sendKeys("nirmal.v30@gmail.com");
 		commonMethod.SelectDropdown(obj1.Company(), 1);
-		commonMethod.SelectDropdown(obj1.JobTitle(), 2);
+		//commonMethod.SelectDropdown(obj1.JobTitle(), 2);
+		commonMethod.SelectDropdown(obj1.country(), 3);
 	Thread.sleep(1000);
 		
 	}
