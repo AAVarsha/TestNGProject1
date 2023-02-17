@@ -16,9 +16,6 @@ public class commonMethod {
 	{
 		SoftAssert a = new SoftAssert();
 		 
-	 // String ac=actual;
-	    
-	  //String exp=expect;
 	 
 	     a.assertEquals(actual, expect, errMsg);
 	  

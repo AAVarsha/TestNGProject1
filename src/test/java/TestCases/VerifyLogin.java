@@ -15,7 +15,7 @@ public class VerifyLogin extends BaseClass
      @Test(dataProvider="testData")
 	 public void login(String Uname, String PWD) throws IOException, InterruptedException 
 	 {
-	commonMethod.AssertHandeling(driver.getCurrentUrl(), "https://login.salesfore.com/", "url is not matching");
+	commonMethod.AssertHandeling(driver.getCurrentUrl(), "https://login.salesforce.com/", "url is not matching");
 	  
 	  LoginPage obj=new LoginPage(driver);
 	  

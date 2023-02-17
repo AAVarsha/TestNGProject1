@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 72.95 s <<< FAILURE! - in TestSuite
+TestCases.VerifyLogin.login[testuser1, secure123](1)  Time elapsed: 0.097 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	url is not matching expected [https://login.salesfore.com/] but found [https://login.salesforce.com/]
+	at TestCases.VerifyLogin.login(VerifyLogin.java:18)
+
+TestCases.VerifyLogin.login[testuser2, secure456](2)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	url is not matching expected [https://login.salesfore.com/] but found [https://login.salesforce.com/]
+	at TestCases.VerifyLogin.login(VerifyLogin.java:18)
+
